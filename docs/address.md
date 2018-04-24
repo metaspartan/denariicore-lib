@@ -1,8 +1,8 @@
-# Bitcoin Address
-Represents a bitcoin address. Addresses are the most popular way to make bitcoin transactions. See [the official Bitcoin Wiki](https://en.bitcoin.it/wiki/Address) for technical background information.
+# Denarius Address
+Represents a denarius address. Addresses are the most popular way to make denarius transactions. See [the official Denarius Wiki](https://en.denarius.it/wiki/Address) for technical background information.
 
 ## Instantiate an Address
-To be able to receive bitcoins an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
+To be able to receive denariuss an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
 
 ```javascript
 var privateKey = new PrivateKey();
@@ -62,4 +62,4 @@ var error = Address.getValidationError(input, Networks.testnet);
 }
 ```
 
-The errors are listed in the generated file in the [errors folder](https://github.com/bitpay/bitcore/tree/master/lib/errors). There's a structure to errors defined in the [spec.js file](https://github.com/bitpay/bitcore/tree/master/lib/errors/spec.js).
+The errors are listed in the generated file in the [errors folder](https://github.com/bitpay/denariicore/tree/master/lib/errors). There's a structure to errors defined in the [spec.js file](https://github.com/bitpay/denariicore/tree/master/lib/errors/spec.js).
