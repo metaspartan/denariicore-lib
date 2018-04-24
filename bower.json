@@ -1,6 +1,6 @@
 {
   "name": "denariicore-lib",
-  "main": "./denariicore-lib.min.js",
+  "main": "./denariicore-lib.js",
   "version": "5.0.0-beta.1",
   "homepage": "http://denarius.io",
   "authors": ["Carsen Klock"],
