@@ -1,0 +1,21 @@
+{
+  "name": "denariicore-lib",
+  "main": "./denariicore-lib.min.js",
+  "version": "5.0.0-beta.1",
+  "homepage": "http://denarius.io",
+  "authors": ["Carsen Klock"],
+  "description": "A pure, powerful core for your denarius project.",
+  "moduleType": ["globals"],
+  "keywords": ["denarius", "denariicore", "dnr", "satoshi"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
