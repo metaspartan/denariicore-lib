@@ -1,6 +1,6 @@
 {
   "name": "denariicore-lib",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "description": "A pure and powerful JavaScript Denarius library.",
   "author": "Carsen Klock <admin@denarius.io>",
   "main": "index.js",
@@ -39,7 +39,9 @@
     "buffer-compare": "=1.1.1",
     "elliptic": "=6.4.0",
     "inherits": "=2.0.1",
-    "lodash": "=4.17.4"
+    "lodash": "=4.17.4",
+    "sha512": "=0.0.1",
+    "tribus-hashjs": "^1.0.1"
   },
   "devDependencies": {
     "denariicore-build": "https://github.com/carsenk/denariicore-build.git",
